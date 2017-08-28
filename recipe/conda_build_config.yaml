@@ -6,8 +6,6 @@ cxx_compiler:                  # [win]
   - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
-CONDA_BUILD_SYSROOT:           # [osx]
-  - /opt/MacOSX10.9.sdk        # [osx]
 VERBOSE_AT:
   - V=1
 VERBOSE_CM:
@@ -46,4 +44,3 @@ zip_keys:
     - macos_min_version         # [osx]
     - macos_machine             # [osx]
     - MACOSX_DEPLOYMENT_TARGET  # [osx]
-    - CONDA_BUILD_SYSROOT       # [osx]
